@@ -2,7 +2,11 @@
 
 int main()
 {
-    char c[10] = 'Nachanjin';
+    const char c1[10] = "Nachanjin";
+    const char c2[10] = "Nachansun";
 
-    write(1, c, ft_strlen(c));
+    char src[32] = "Source memory";
+    char dest[32] = "Destination memory";
+
+    return 0;
 }
